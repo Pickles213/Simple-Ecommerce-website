@@ -1,0 +1,299 @@
+*{
+    font-family: sans-serif;
+}
+/*navbar upper home page of the website*/
+.top-seller{
+    height: 3vh;
+    background-color: #EEEEEE;
+    padding: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navbar-seller{
+    position: sticky;
+    top:0px;
+}
+.navbar-seller nav{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 40px 0px 40px;
+    height: 50px;
+}
+.logo{
+    color: #373A40;
+    margin-right: 5rem;
+    
+}
+.logo a{
+    text-decoration: none;
+}
+.navbar-seller nav ul{
+    display: flex;
+}
+.navbar-seller nav ul li{
+    list-style: none;  
+    margin-right:4rem;     
+}
+.navbar-seller nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+}
+.navbar-seller nav .cart{
+    display: flex;
+    
+}
+.navbar-seller nav .cart button,.navbar-seller nav .cart img{
+    height: 35px;
+    width: 40px;
+}
+.navbar-seller nav .cart button{
+    width: 90px;
+    background-color: #373A40;
+    border:none;
+    border-radius: 15px;
+    margin-left: 0;
+    color: white;
+    transition: 0.3s;
+}
+.navbar-seller nav .cart button:hover{
+    background-color: #686D76;
+    transform: scale(1.02);
+    color: black;
+    box-shadow: 0px 0px 9px black;
+}
+.under-nav{
+    background-color: #EEEEEE;
+    padding-top: 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.under-nav h3{
+    margin: 0px;
+    padding-top: 10px;
+} 
+.under-nav p{
+    font-size: smaller;
+    margin: 0px;
+    padding-bottom: 10px;
+}
+.container-seller1{
+    margin: 0;
+    padding: 0;
+}
+/*END OF NAVBAR*/
+/* upper container home page */
+.glass, .watch{
+    width: 99.99%;
+    height: 47rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.front-img img, .mid-img img{
+    height: 35rem;
+    width: 100%;
+    padding: 0px;
+    object-fit: cover;
+}
+.glass button, .watch button{
+    height: 35px;
+    width: 85px;
+    background-color: #373A40;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+.glass button:hover, .watch button:hover{
+    background-color: #686D76;
+    transform: scale(1.02);
+    color: black;
+    box-shadow: 0px 0px 9px black;
+}
+.img-msg{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container-seller2{
+    background-color: lightgray;
+    height: 70vh;
+    padding: 3px;
+    width: 98%;
+    overflow: auto;
+    white-space: nowrap;
+    padding: 10px;
+    z-index: none;
+}
+.pics a, .watches a{
+    text-decoration: none;
+}
+
+.pics img{
+    height: 400px;
+    width: 300px;
+    padding: 20px;
+    align-items: center;
+    object-fit: cover;
+}
+.container-seller3{
+    height: 30vh;
+    background-color: white;
+}
+.container-seller3{
+    background-color: #EEEEEE;
+    height: 70vh;
+    padding: 3px;
+    width: 98%;
+    overflow: auto;
+    white-space: nowrap;
+    padding: 10px;
+    z-index: none;
+    margin-top: 10rem;
+}
+.watches img{
+    height: 400px;
+    width: 300px;
+    padding: 20px;
+    align-items: center;
+}
+footer{
+    background-color: #686D76;
+    height: 40px;
+    display: flex;
+}
+.mid-img img{
+    margin-top: 50px;
+    width: 80rem;
+    height: 40rem;
+}
+
+/* ends here */
+/* shop style */
+.container-shop{
+    width: 99.7%;
+    padding-top: 3px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container-shop h4{
+    background-color: #EEEEEE;
+    width: 100%;
+    display: flex;
+    margin: 3px;
+    justify-content: center;
+    height: 40px;
+    align-items: center;
+}
+.images-shop,.images-shop2{
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0px 20px;
+    background-color: lightgray;
+    height: 40rem;
+    border-radius: 25px;
+}
+.images-shop img, .images-shop2 img{
+    height: 500px;
+    width: 350px;
+    display: flex;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+.images-shop img:hover, .images-shop2 img:hover{
+    box-shadow: 0px 0px 6px #373A40;
+}
+.images-shop p, .images-shop2 p{
+    display: flex;
+    justify-content: flex-start;
+    height: 0px;
+    margin-left: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: serif;
+    padding: 0px;
+}
+.images-shop-conatiner,.images-shop-conatiner2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 78%;
+}
+footer{
+    height: 20px;
+    background-color: #373A40;
+}
+/* Store */
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; 
+    color: #333; 
+}
+
+h1 {
+    text-align: center;
+    margin: 20px 0;
+    color: #333; 
+}
+
+.store-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.store-product {
+    background-color: #fff; 
+    border: 1px solid #ccc; 
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    width: 200px;
+    text-align: center;
+    text-decoration: none;
+}
+.store-product a{
+    text-decoration: none;
+}
+.store-product img {
+    max-width: 100%;
+    height: 10rem;
+    width: 11rem;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    object-fit: cover;
+}
+.store-product h2 {
+    margin: 10px 0;
+    font-size: 18px;
+    color: #333;
+    
+}
+.store-product p {
+    margin: 5px 0;
+    color: #666;
+    
+}
+.store-product .price {
+    color: #333;
+    font-weight: bold;
+}
+.store-product .color {
+    color: #666; 
+}
+

@@ -1,0 +1,192 @@
+.top-seller{
+    height: 3vh;
+    background-color: #EEEEEE;
+    padding: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navbar-seller nav{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 40px 0px 40px;
+    height: 50px;
+}
+.logo{
+    color: #373A40;
+}
+.navbar-seller nav ul{
+    display: flex;
+}
+.navbar-seller nav ul li{
+    list-style: none;  
+    margin-right:4rem;     
+}
+.navbar-seller nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+}
+.navbar-seller nav .cart{
+    display: flex;
+    
+}
+.navbar-seller nav .cart button,.navbar-seller nav .cart img{
+    height: 35px;
+    width: 40px;
+}
+.navbar-seller nav .cart button{
+    width: 90px;
+    background-color: #373A40;
+    border:none;
+    border-radius: 15px;
+    margin-left: 0;
+    color: white;
+    transition: 0.3s;
+}
+.navbar-seller nav .cart button:hover{
+    background-color: #686D76;
+    transform: scale(1.02);
+    color: black;
+    box-shadow: 0px 0px 9px black;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    }
+
+.profile-container {
+    width: 80rem;
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile-header {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 20px;
+}
+
+.profile-pic {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.profile-info h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.profile-info p {
+    margin: 5px 0 0;
+    color: #777;
+}
+
+.profile-content h2 {
+    margin-top: 20px;
+    font-size: 20px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+}
+
+.interests-tabs {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.tab-button {
+    background: none;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-bottom: 2px solid transparent;
+}
+
+.tab-button.active {
+    border-bottom: 2px solid #000;
+}
+
+.tab-content {
+    display: none;
+}
+
+.tab-content.active {
+    display: block;
+}
+.log-out{
+    display: flex;
+    justify-content: flex-end;
+}
+.log-out button{
+    background-color: lightgray;
+    border: none;
+    height: 30px;
+    width: 60px;
+    border-radius: 10px;
+}
+.log-out button:hover{
+    background-color: #777;
+    box-shadow: 0px 0px 6px black;
+}
+ /* place order */
+.all {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    background-color: #f0f0f0;
+    color: #333;
+}
+.place_order_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.place_order {
+    text-align: center;
+    background-color: #fff;
+    padding: 40px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    max-width: 400px;
+    width: 100%;
+}
+.place_order h1 {
+    margin-bottom: 20px;
+    color: #333;
+}
+.message {
+    color: #666;
+    margin-bottom: 20px;
+}
+.backbtn {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #333;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+.backbtn:hover {
+    background-color: #555;
+}
