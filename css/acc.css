@@ -3,6 +3,7 @@
     background-color: #EEEEEE;
     padding: 3px;
     display: flex;
+    align-items: center;
     justify-content: center;
 }
 .navbar-seller nav{
